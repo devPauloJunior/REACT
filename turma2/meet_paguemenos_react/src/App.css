@@ -1,0 +1,86 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+table {
+  width: 100%;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para dispositivos pequenos */
+@media only screen and (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  /* Estilos para cabeçalho (thead) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* Estilos para linhas (tr) */
+  tr {
+    margin-bottom: 15px;
+  }
+
+  /* Estilos para células de cabeçalho (th) */
+  th {
+    text-align: center;
+ 
+  }
+
+  /* Estilos para células (td) */
+  td {
+    border-bottom: none;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  /* Estilos para o conteúdo nas células */
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+
+  /* Estilos para cada célula especificamente */
+  td:nth-of-type(1):before { content: ""; }
+  td:nth-of-type(2):before { content: ""; }
+  td:nth-of-type(3):before { content: ""; }
+  td:nth-of-type(4):before { content: ""; }
+  td:nth-of-type(5):before { content: ""; }
+} 
+
+/* Estilos padrão para o campo de pesquisa */
+input[type="search"] {
+  width: 100%; /* Ou outra largura em porcentagem */
+}
+
+/* Estilos para dispositivos móveis com tela de até 768px */
+@media screen and (max-width: 768px) {
+  input[type="search"] {
+    width: 20%; /* Ou outra largura em porcentagem para telas menores */
+  }
+}
+
+.container_display_flex{
+display: flex;
+
+}

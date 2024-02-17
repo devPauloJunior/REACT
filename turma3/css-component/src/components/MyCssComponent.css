@@ -1,0 +1,7 @@
+p { color: green; background-color: black; border: 2px solid white; }
+
+.component-paragraph { color: black; background-color: yellow; border: 3px dotted black; }
+
+.gold-title { background-color: black; color: gold; padding: 15px; border: 5px solid red;  }
+
+.red-title { background-color: black; color: red; border: 5px solid gold; }

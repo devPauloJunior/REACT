@@ -1,0 +1,31 @@
+.fotoDePerfil {
+  border-radius: 100%;
+  width: 75%;
+  height: 75%;
+  padding-bottom: 0.6em;
+  padding-top: 1em;
+}
+
+.gerente__nome{
+  font-weight: 600;
+}
+
+.gerente__cargo{
+  padding: 0.5em;
+  padding-bottom: 1em;
+  margin-bottom: 1.6em;
+}
+
+.sesaoPerfil {
+  background-color: white;
+  border-radius: 10px;
+}
+button::after {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+    .gerente__responsivo{
+        display: none;
+    }
+}

@@ -1,0 +1,49 @@
+/* headerStyle */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--gradient:linear-gradient(to right, #0079c2 50%, #035aa6 100%);;
+	--bgNav:#FFFFFF;
+	--borderNav:#035AA6;
+	--tituloNav:#0079c2;
+}
+
+header {
+	background-color: var(--bgNav);
+	border-top: 5px solid var(--borderNav);
+	border-image:var(--gradient) 1 ;
+	box-shadow: 5px 5px 12px #8888884a;
+}	
+
+.LogoNav{
+	width:9em;
+	height: auto;
+	margin-left: 0.7em;
+	cursor: pointer;
+	margin: 10px;
+}
+.tituloNav{
+	width: 63%;
+	font-weight: bold;
+	color: var(--tituloNav);
+}
+
+@media only screen and (max-width: 1024px){
+	.headerNav{
+		width: auto;
+	}
+	
+	.LogoNav{
+		width: 7em;
+		
+	}
+}
+
+/* Fim headerStyle */

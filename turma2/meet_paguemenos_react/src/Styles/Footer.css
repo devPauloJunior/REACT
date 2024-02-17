@@ -1,0 +1,14 @@
+:root {
+	--gradient:linear-gradient(to left, #0079c2 50%, #035aa6 100%);;
+	--bgNav:#FFFFFF;
+	--borderNav:#035AA6;
+	--tituloNav:#0079c2;
+}
+
+footer{
+    background: var(--gradient) !important;
+    border-top: 3px solid var(--bgNav);
+    width: 100%;
+    text-align: center;
+    height: 4em;
+}

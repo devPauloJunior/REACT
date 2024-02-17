@@ -1,0 +1,31 @@
+.login__img{
+    height: 10vmin;
+    pointer-events: none;
+}
+
+.signinLogin__header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background:linear-gradient(to left, #b6e4fd 50%, #e0edf8 100%);;
+}
+
+.login__button{
+    font-size: 9em;
+}
+
+.login__button__filho{
+    font-size: 10%;
+    margin: 10px;
+    width: 200px;
+}
+
+@media (prefers-reduced-motion: no-preference){
+    .login__img{
+        animation: app-logo-spin infinite 20s linear;
+    }
+}

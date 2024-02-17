@@ -1,0 +1,23 @@
+.register { text-align: center; height: 600px; }
+
+.register p { color: #aaaaaa; }
+
+input::placeholder, textarea::placeholder { font-family: "Montserrat", sans-serif; }
+
+input:focus, textarea:focus { outline: none; }
+
+a, nav button { text-decoration: none; background-color: transparent; border: none; color: black; transition: .4s; font-size: 1em; cursor: pointer; font-family: "Montserrat", sans-serif; }
+
+a:hover , nav button:hover { color: #bbbbbb; }
+
+form { max-width: 40%; margin: 0 auto; }
+
+label { display: flex; flex-direction: column; margin-bottom: 1px; }
+
+label span { font-weight: bold; text-align: left; padding-top: .8em; }
+
+input, textarea { box-sizing: border-box; border: none; border-bottom: 1px solid #cccccc; padding-bottom: .8em; background-color: transparent; }
+
+button[disabled] { background-color: #aaaaaa; }
+
+.error { background-color: #fabebe; border: 1px solid #bbbbbb; padding: 5px; border-radius: 5px; }

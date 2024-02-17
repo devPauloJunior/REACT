@@ -1,0 +1,45 @@
+.MeuGerente, .MenuColacorador{
+    margin-left: 0.5em;
+}
+ 
+.MenuGerente__Button{
+    display: flex;
+    align-items:baseline;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 0, 0, 0.152);
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    width: 100%;
+}
+
+.MenuGerente__Link{
+    text-decoration: none;
+    width: 100%;
+    height: 70px;
+}
+
+.btn__home{
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 70px;
+}
+
+.btn__home{
+    color: white;
+}
+
+.btn__home:hover{
+    background-color: #094baf;
+}
+
+.btn__home:focus{   
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 1111px){
+    .btn__home p{
+        display: none;
+    }
+}

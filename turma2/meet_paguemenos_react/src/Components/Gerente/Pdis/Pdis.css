@@ -1,0 +1,10 @@
+.container_white{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.button_add_close{
+  text-align: right;
+}

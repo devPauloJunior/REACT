@@ -1,0 +1,61 @@
+.form__agendar{
+    width: 55%;
+    margin: auto;
+  }
+  
+  .container_white{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .button_add_close{
+    text-align: right;
+  }
+  
+  .from__input label {
+    color: #035AA6;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1em;   
+  }
+  
+  .listaDeReunioes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container_meet{
+    width: 22%;
+    height: auto;
+    background-color: #3481c5;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    
+  }
+  
+  .container_meet strong{
+    color: white;
+    text-align: left;
+  }
+  
+  .container_meet h2{
+    color: white;
+    background-color: #035AA6;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .container_meet p{
+    color: white;
+  }
+  
+  .icons_meet{
+    color: white;
+    padding: 5px;
+    text-align: center;
+  }
