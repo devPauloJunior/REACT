@@ -60,7 +60,7 @@ Não temos versionamento. Porem temos três diretorios referentes as turma que j
 
 ## ✒️ Autor
 
-* **Paulo Júnior** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
+* **Paulo Júnior** - *Professor e Desenvolvedor*
 
 ## 📄 Licença
 
