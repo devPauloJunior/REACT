@@ -18,7 +18,7 @@ Ter no NODE JS instalado em seu PC / Dispositivo
 
 Nos nossos aplicativos react js utilizamos o VITE como gerador de estrutura de código.
 
-Diga como essa etapa será:
+Primeiro crie um diretorio e execute o comando abaixo no terminal:
 ```
 Comando do Vite: npm create vite@latest
 ```
