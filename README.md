@@ -48,6 +48,8 @@ Execute:
 
 ## ⚙️ faça suas alterações e seus testes
 
+Desejamos bons estudos
+
 ## 🖇️ Colaborando
 
 Agradecemos qualquer tipo de colaboração.
