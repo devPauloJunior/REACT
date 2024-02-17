@@ -1,4 +1,4 @@
-# Meterial referente as aulas de REACT JS
+# Material referente as aulas de REACT JS
 
 Aqui você vai encontrar todas os aplicativos referentes as aulas do Curso de Front-End modulo de REACT JS
 
@@ -25,7 +25,7 @@ Comando do Vite: npm create vite@latest
 
 1. Nome do Projeto:
 ```
-Project name: » vite-project
+Project name: » [nome do projeto]
 ```
 
 2. Select a framework: » - Use arrow-keys. Return to submit:
@@ -38,15 +38,23 @@ Escolha o: React
 Escolha o: JavaScript
 ```
 
+4. Done. Now run:
+```
+Execute:
+  cd [nome do projeto]
+  npm install
+  npm run dev
+```
+
 ## ⚙️ faça suas alterações e seus testes
 
 ## 🖇️ Colaborando
 
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+Agradecemos qualquer tipo de colaboração.
 
 ## 📌 Versão
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+Não temos versionamento. Porem temos três diretorios referentes as turma que já passaram pelo curso.
 
 ## ✒️ Autor
 
