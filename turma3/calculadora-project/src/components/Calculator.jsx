@@ -74,10 +74,10 @@ const Calculator = () => {
     return (
         <div>
             <h2>Calculadora</h2>
-            <div>
-                <div>{ completeOperation }</div>
-                <div>{ currentValue }</div>
-                <div>
+            <div className='calculator'>
+                <div className='complete-opertion'>{ completeOperation }</div>
+                <div className='display'>{ currentValue }</div>
+                <div className='buttons'>
                     <button type='button' onClick={handleClear}>AC</button>
                     {keyPadNumber.map((num) =>
                         <button 
