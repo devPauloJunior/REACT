@@ -1,0 +1,11 @@
+.converter { display: flex; flex-direction: column; align-items: center; padding: 18px; border-radius: 10px; width: 400px; margin: 20px auto; background-color: #ffffff; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);}
+
+.converter h2 { color: #343a40; font-size: 18px; margin-bottom: 20px;}
+
+.converter input, .converter select { width: 100%; padding: 15px 14px; box-sizing: border-box; border-radius: 5px; font-size: 16px; color: #495057; background-color: #ffffff; border: 1px solid #cecece;}
+
+.converter input { margin-bottom: 30px; }
+
+.converter span, .converter p { margin: 15px; font-size: 14px; color: #495057; }
+
+.converter p { font-size: 14px; }

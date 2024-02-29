@@ -27,7 +27,7 @@ const Conversor = () => {
     },[rates, amount, fromCurrency, toCurrency] )
 
     return (
-        <div>
+        <div className='converter'>
             <h2>Conversor de Moedas</h2>
             <input 
                 type="number"

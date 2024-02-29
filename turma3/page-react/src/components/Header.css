@@ -1,0 +1,5 @@
+.header-class { height: 90px; background-color: #f7b600; padding: 30px; overflow: hidden; white-space: nowrap; box-shadow: 0 2px 23px 0 rgba(0, 0, 0, 0.1); display: flex; justify-content: space-between; align-items: center;}
+
+.header-class h1 { font-family: Arial, Helvetica, sans-serif;  }
+
+.header-class p { text-align: justify; font-size: 14px; }
